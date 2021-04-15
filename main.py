@@ -127,7 +127,7 @@ class Funcs:
                 self.inicio = time.time() + int(self.duration) / 100
         self.showmsg(1, f"{self.ta.get()} Attack on {self.ipaddr}:{self.port} with {self.counter} pkts sended.")
     def tcp_attack(self):
-        self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.counter = 0
         self.varBar.set(0)
         self.inicio = time.time()
