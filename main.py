@@ -176,8 +176,8 @@ class Application(Funcs):
 
     def widgets(self):
         #----- Titulo do Software
-        self.titleprog = Label(self.root, text="DDoS by Mathysics", fg="#C9C9C9", bg="#360C0C", font=("Haettenschweiler",30))
-        self.titleprog.place(relx="0.15", rely="0.04",relwidth="0.7", relheight="0.13")
+        self.titleprog = Label(self.root, text="DDoS by Mathysics", fg="#C9C9C9", bg="#360C0C", font=("Haettenschweiler",25))
+        self.titleprog.place(relx="0.05", rely="0.04",relwidth="0.9", relheight="0.13")
 
         #---- Widgets do Frame Target
 
